@@ -1,0 +1,1060 @@
+ git commit
+Check for merge conflicts................................................Passed
+Debug Statements (Python)................................................Passed
+Fix End of Files.........................................................Failed
+- hook id: end-of-file-fixer
+- exit code: 1
+- files were modified by this hook
+
+Fixing libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py
+Fixing libs/sdc_etl_libs/test/sdc_data_schema_tests/test_schema_1_no_issues.json
+Fixing libs/sdc_etl_libs/sdc_dataframe/Dataframe.py
+Fixing libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py
+
+Trim Trailing Whitespace.................................................Failed
+- hook id: trailing-whitespace
+- exit code: 1
+- files were modified by this hook
+
+Fixing libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py
+
+pylint...................................................................Failed
+- hook id: pylint
+- exit code: 30
+
+************* Module libs.sdc_etl_libs.sdc_data_validator.SDCDataValidator
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidator.py:1:0: C0103: Module name "SDCDataValidator" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidator.py:5:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidator.py:16:8: W0107: Unnecessary pass statement (unnecessary-pass)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidator.py:25:8: W0107: Unnecessary pass statement (unnecessary-pass)
+************* Module libs.sdc_etl_libs.sdc_exchange_endpoints.database_endpoints.SDCSnowflakeEndpoint
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:113:2: W0511: TODO: Must extract this to a super class method (fixme)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:134:2: W0511: TODO: Deprecate once all jobs are using SDCSnowflakeLogger: (fixme)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:143:2: W0511: TODO: Deprecated ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (fixme)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:157:1: W0511: TODO: Need to revisit once we integrate spark. (fixme)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:240:1: W0511: TODO: Deprecate once all jobs are using SDCSnowflakeLogger: (fixme)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:256:2: W0511: TODO: Deprecated ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (fixme)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:13:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:108:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:111:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:115:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:116:0: C0301: Line too long (117/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:117:0: C0301: Line too long (110/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:119:0: C0301: Line too long (102/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:131:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:133:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:145:0: C0301: Line too long (106/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:162:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:198:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:213:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:262:0: C0301: Line too long (114/100) (line-too-long)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:1:0: C0103: Module name "SDCSnowflakeEndpoint" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:4:0: E0401: Unable to import 'pandas' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:5:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange.SDCDataExchangeEndpoint' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:6:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.SnowflakeDatabase' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:7:0: E0401: Unable to import 'sdc_etl_libs.aws_helpers.aws_helpers' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:8:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_validator.SDCDataValidatorFactory' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:9:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFileHelpers' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:10:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.Dataframe' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:11:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.SDCDataframeEnums' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:12:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange_loggers.SDCLoggerFactory' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:13:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange_loggers.SDCSnowflakeLogger' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:14:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFile' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:15:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFileFactory' (import-error)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:18:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:23:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:28:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:28:0: R0902: Too many instance attributes (28/7) (too-many-instance-attributes)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:64:0: W0613: Unused argument 'kwargs' (unused-argument)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:156:4: C0116: Missing function or method docstring (missing-function-docstring)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:159:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:160:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:180:8: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:186:19: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:185:16: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:186:12: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:187:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:193:19: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:192:16: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:193:12: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:194:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:198:28: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:202:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:236:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:238:28: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:249:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:167:4: R0912: Too many branches (17/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:121:12: W0201: Attribute 'endpoint_items' defined outside __init__ (attribute-defined-outside-init)
+************* Module libs.sdc_etl_libs.test.sdc_data_schema_tests.sdc_data_schema_test
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:17:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:75:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:113:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:127:0: C0301: Line too long (115/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:138:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:7:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_schema.SDCDataSchema' (import-error)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:7:0: C0413: Import "from sdc_etl_libs.sdc_data_schema.SDCDataSchema import SDCDataSchema" should be placed at the top of the module (wrong-import-position)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:8:0: E0401: Unable to import 'pytest' (import-error)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:8:0: C0413: Import "import pytest" should be placed at the top of the module (wrong-import-position)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:35:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:43:0: C0116: Missing function or method docstring (missing-function-docstring)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:48:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:54:11: C0121: Comparison to None should be 'expr is None' (singleton-comparison)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:56:11: C0121: Comparison to None should be 'expr is None' (singleton-comparison)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:59:11: C0121: Comparison to False should be 'not expr' (singleton-comparison)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:62:0: C0116: Missing function or method docstring (missing-function-docstring)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:67:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:76:11: C0122: Comparison should be len(result['validator']) == 1 (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:79:11: C0122: Comparison should be result_validator['max_sample_size'] == 10 (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:80:11: C0122: Comparison should be result_validator['validation_page_size'] == 5 (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:81:11: C0122: Comparison should be result_validator['sample_frac_size'] == 0.2 (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:140:11: R0123: Comparison to literal (literal-comparison)
+************* Module libs.sdc_etl_libs.sdc_data_schema.SDCDataSchemaEnums
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:140:1: W0511: TODO: Deprecate once all jobs are using SDCSnowflakeLogger: (fixme)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:142:1: W0511: TODO Deprecate ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (fixme)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:150:2: W0511: TODO: Deprecate once all jobs are using SDCSnowflakeLogger: (fixme)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:152:2: W0511: TODO Deprecate ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ (fixme)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:1:0: C0103: Module name "SDCDataSchemaEnums" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:7:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:16:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:25:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:34:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:43:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:48:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:57:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:63:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:68:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:79:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:84:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:95:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:100:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:105:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:117:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:122:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:133:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:146:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:155:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:185:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:189:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:195:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:199:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:206:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:213:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:219:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:226:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:233:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:237:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:243:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:247:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:253:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:257:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:265:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:269:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:275:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:281:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:285:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:290:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:296:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:306:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:310:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:317:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:324:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:329:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchemaEnums.py:333:0: C0115: Missing class docstring (missing-class-docstring)
+
+-----------------------------------
+Your code has been rated at 5.67/10
+
+************* Module libs.sdc_etl_libs.sdc_data_validator.SDCDataValidatorFactory
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:7:0: C0301: Line too long (105/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:27:0: C0301: Line too long (110/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:47:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:48:0: C0301: Line too long (111/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:1:0: C0103: Module name "SDCDataValidatorFactory" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:4:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.SnowflakeDatabase' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:5:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange.SDCDataExchangeEndpoint' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:6:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_validator.SDCDataValidator' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:7:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_validator.SDCSnowflakeDataValidator.SDCSnowflakeSampleSearchValidator' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:11:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:47:8: R1705: Unnecessary "else" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:54:12: E0711: NotImplemented raised - should raise NotImplementedError (notimplemented-raised)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:54:18: E1102: NotImplemented is not callable (not-callable)
+libs/sdc_etl_libs/sdc_data_validator/SDCDataValidatorFactory.py:2:0: W0611: Unused import logging (unused-import)
+************* Module libs.sdc_etl_libs.sdc_dataframe.Dataframe
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:14:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:85:0: C0301: Line too long (113/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:86:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:96:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:120:0: C0301: Line too long (106/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:126:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:157:0: C0301: Line too long (115/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:160:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:555:0: C0301: Line too long (105/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:556:0: C0301: Line too long (102/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:597:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:651:0: C0301: Line too long (164/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:653:0: C0301: Line too long (161/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:658:0: C0301: Line too long (105/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:659:0: C0301: Line too long (107/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:660:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:669:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:682:0: C0301: Line too long (105/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:683:0: C0301: Line too long (107/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:701:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:740:0: C0301: Line too long (119/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:747:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:750:0: C0301: Line too long (123/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:757:0: C0301: Line too long (126/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:758:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:773:0: C0301: Line too long (132/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:774:0: C0301: Line too long (107/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:880:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:1:0: C0103: Module name "Dataframe" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:5:0: E0401: Unable to import 'pandas' (import-error)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:6:0: E0401: Unable to import 'numpy' (import-error)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:11:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.Database' (import-error)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:12:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_schema.SDCDataSchema' (import-error)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:13:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.SnowflakeDatabase' (import-error)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:14:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange_loggers.SDCSnowflakeLogger' (import-error)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:15:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.SDCDataframeEnums' (import-error)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:17:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:44:8: C0103: Attribute name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:41:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:41:0: R0205: Class 'Dataframe' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:41:0: R0902: Too many instance attributes (18/7) (too-many-instance-attributes)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:58:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:60:13: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:92:12: R1705: Unnecessary "elif" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:119:12: R1720: Unnecessary "else" after "raise" (no-else-raise)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:134:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:192:16: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:194:16: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:234:32: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:294:8: W0107: Unnecessary pass statement (unnecessary-pass)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:306:16: R1720: Unnecessary "elif" after "raise" (no-else-raise)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:311:20: R1720: Unnecessary "else" after "raise" (no-else-raise)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:296:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:296:4: R0912: Too many branches (18/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:368:4: R0201: Method could be a function (no-self-use)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:392:16: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:394:16: R1705: Unnecessary "else" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:416:16: R1720: Unnecessary "elif" after "raise" (no-else-raise)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:450:20: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:453:20: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:381:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:412:16: W0612: Unused variable 'current_col' (unused-variable)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:381:4: R0912: Too many branches (20/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:487:12: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:489:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:545:24: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:555:4: R0913: Too many arguments (9/5) (too-many-arguments)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:555:4: R0914: Too many local variables (28/15) (too-many-locals)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:578:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:578:11: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:584:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:700:23: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:588:8: R1702: Too many nested blocks (7/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:700:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:701:20: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:588:8: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:578:11: W0612: Unused variable 'c' (unused-variable)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:555:4: R0912: Too many branches (38/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:555:4: R0915: Too many statements (110/50) (too-many-statements)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:809:8: R1705: Unnecessary "elif" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:802:0: W0613: Unused argument 'kwargs' (unused-argument)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:820:4: W0102: Dangerous default value [] as argument (dangerous-default-value)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:833:8: R1705: Unnecessary "elif" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:820:0: W0613: Unused argument 'kwargs' (unused-argument)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:864:8: R1705: Unnecessary "elif" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:873:4: C0112: Empty method docstring (empty-docstring)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:876:8: W0107: Unnecessary pass statement (unnecessary-pass)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:884:8: W0107: Unnecessary pass statement (unnecessary-pass)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:893:8: W0107: Unnecessary pass statement (unnecessary-pass)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:906:20: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:909:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:932:11: R1714: Consider merging these comparisons with "in" to "style_ in ('snowflake', 'postgres')" (consider-using-in)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:958:8: R1720: Unnecessary "else" after "raise" (no-else-raise)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:963:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:966:4: C0112: Empty method docstring (empty-docstring)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:969:8: W0107: Unnecessary pass statement (unnecessary-pass)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:971:4: C0112: Empty method docstring (empty-docstring)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:974:8: W0107: Unnecessary pass statement (unnecessary-pass)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:576:8: W0201: Attribute 'database_name' defined outside __init__ (attribute-defined-outside-init)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:41:0: R0904: Too many public methods (25/20) (too-many-public-methods)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:7:0: C0411: standard import "import json" should be placed before "import pandas as pd" (wrong-import-order)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:8:0: C0411: standard import "from enum import Enum" should be placed before "import pandas as pd" (wrong-import-order)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:9:0: C0411: standard import "import uuid" should be placed before "import pandas as pd" (wrong-import-order)
+libs/sdc_etl_libs/sdc_dataframe/Dataframe.py:10:0: C0411: standard import "import io" should be placed before "import pandas as pd" (wrong-import-order)
+************* Module libs.sdc_etl_libs.sdc_data_validator.SDCSnowflakeDataValidator.SDCSnowflakeSampleSearchValidator
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:11:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:13:0: C0301: Line too long (105/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:14:0: C0301: Line too long (106/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:17:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:68:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:75:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:79:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:94:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:116:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:140:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:154:0: C0301: Line too long (122/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:155:0: C0301: Line too long (114/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:160:0: C0301: Line too long (102/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:163:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:164:0: C0301: Line too long (110/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:1:0: C0103: Module name "SDCSnowflakeSampleSearchValidator" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:5:0: E0401: Unable to import 'pandas' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:10:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.SnowflakeDatabase' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:11:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange_loggers.SDCSnowflakeLogger.SDCSnowflakeLoggerEnums' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:12:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_validator.SDCDataValidator' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:13:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.Dataframe' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:14:0: E0401: Unable to import 'sdc_etl_libs.sdc_exchange_endpoints.database_endpoints.SDCPostgresEndpoint' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:15:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFile' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:16:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFileFactory' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:17:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange_loggers.SDCSnowflakeLogger' (import-error)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:20:0: R0902: Too many instance attributes (9/7) (too-many-instance-attributes)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:61:8: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:67:19: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:66:16: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:67:12: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:68:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:74:19: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:73:16: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:74:12: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:75:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:79:28: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:83:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:67:12: W0612: Unused variable 'e' (unused-variable)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:104:4: R0914: Too many local variables (19/15) (too-many-locals)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:166:23: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:155:38: R1718: Consider using a set comprehension (consider-using-set-comprehension)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:166:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:104:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:132:24: W0612: Unused variable 'page' (unused-variable)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:138:28: W0612: Unused variable 'item' (unused-variable)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:166:16: W0612: Unused variable 'e' (unused-variable)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:7:0: C0411: standard import "from itertools import groupby" should be placed before "import pandas as pd" (wrong-import-order)
+libs/sdc_etl_libs/sdc_data_validator/SDCSnowflakeDataValidator/SDCSnowflakeSampleSearchValidator.py:8:0: C0411: standard import "from math import ceil" should be placed before "import pandas as pd" (wrong-import-order)
+************* Module libs.sdc_etl_libs.sdc_data_schema.SDCDataSchema
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:86:2: W0511: TODO: Replace by a Abstract Factory (by @moacy) (fixme)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:304:2: W0511: TODO: Add regex to ensure in the right format (ex. "40b") (fixme)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:311:1: W0511: TODO: Add methodology for figure out what dataframe type to return based on est_row_size and est_row_count (fixme)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:66:0: C0301: Line too long (131/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:70:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:75:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:79:0: C0301: Line too long (114/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:84:0: C0301: Line too long (149/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:90:0: C0301: Line too long (110/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:94:0: C0325: Unnecessary parens after 'in' keyword (superfluous-parens)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:99:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:132:0: C0301: Line too long (105/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:247:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:262:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:265:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:270:0: C0301: Line too long (119/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:273:0: C0301: Line too long (114/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:311:0: C0301: Line too long (115/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:338:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:448:0: C0301: Line too long (127/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:450:0: C0301: Line too long (119/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:1:0: C0103: Module name "SDCDataSchema" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:6:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.Database' (import-error)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:7:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.SnowflakeDatabase' (import-error)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:8:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange.SDCDataExchangeEnums' (import-error)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:9:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_schema' (import-error)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:10:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFileHelpers' (import-error)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:11:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.SDCDataframeEnums' (import-error)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:14:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:53:8: R1720: Unnecessary "elif" after "raise" (no-else-raise)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:56:13: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:56:13: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:105:12: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:56:13: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:20:4: R0912: Too many branches (28/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:20:4: R0915: Too many statements (58/50) (too-many-statements)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:135:19: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:153:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:110:4: R0912: Too many branches (15/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:219:23: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:232:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:165:4: R0912: Too many branches (24/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:165:4: R0915: Too many statements (53/50) (too-many-statements)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:261:19: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:269:23: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:284:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:287:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:287:21: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:237:4: R0201: Method could be a function (no-self-use)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:237:4: R0912: Too many branches (17/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:290:4: C0112: Empty method docstring (empty-docstring)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:296:16: W0612: Unused variable 'est_row_size' (unused-variable)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:305:16: W0612: Unused variable 'est_row_count' (unused-variable)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:347:8: R1705: Unnecessary "else" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:353:23: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:359:23: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:353:23: W0612: Unused variable 'v' (unused-variable)
+libs/sdc_etl_libs/sdc_data_schema/SDCDataSchema.py:435:23: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+
+-----------------------------------
+Your code has been rated at 5.95/10
+
+************* Module libs.sdc_etl_libs.sdc_data_exchange.SDCDataExchange
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:281:2: W0511: TODO Place holder for TOTAL_RECORDS_FROM_DATAFRAME for generators (fixme)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:286:2: W0511: TODO Place holder for TOTAL_RECORDS_FROM_DATAFRAME for zipped files (fixme)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:490:2: W0511: TODO: Append validator here (fixme)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:520:2: W0511: TODO: Append validator here (fixme)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:12:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:15:0: C0301: Line too long (131/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:16:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:52:0: C0301: Line too long (102/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:116:0: C0301: Line too long (106/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:118:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:153:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:155:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:169:0: C0301: Line too long (107/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:199:0: C0301: Line too long (124/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:204:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:205:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:210:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:216:0: C0301: Line too long (124/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:229:0: C0301: Line too long (124/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:234:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:235:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:240:0: C0301: Line too long (119/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:247:0: C0301: Line too long (124/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:252:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:270:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:271:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:286:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:314:0: C0301: Line too long (133/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:316:0: C0301: Line too long (130/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:317:0: C0301: Line too long (114/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:322:0: C0301: Line too long (107/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:324:0: C0301: Line too long (139/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:326:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:327:0: C0301: Line too long (110/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:329:0: C0301: Line too long (108/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:330:0: C0301: Line too long (107/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:332:0: C0301: Line too long (127/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:333:0: C0301: Line too long (140/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:335:0: C0301: Line too long (130/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:337:0: C0301: Line too long (121/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:339:0: C0301: Line too long (114/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:340:0: C0301: Line too long (110/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:342:0: C0301: Line too long (120/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:347:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:352:0: C0301: Line too long (113/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:353:0: C0301: Line too long (115/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:354:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:358:0: C0301: Line too long (107/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:364:0: C0301: Line too long (134/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:365:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:366:0: C0301: Line too long (141/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:367:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:368:0: C0301: Line too long (149/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:369:0: C0301: Line too long (134/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:370:0: C0301: Line too long (111/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:375:0: C0301: Line too long (143/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:378:0: C0301: Line too long (111/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:379:0: C0301: Line too long (102/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:380:0: C0301: Line too long (155/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:383:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:384:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:385:0: C0301: Line too long (120/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:386:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:388:0: C0301: Line too long (116/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:389:0: C0301: Line too long (124/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:395:0: C0301: Line too long (149/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:397:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:402:0: C0301: Line too long (129/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:403:0: C0301: Line too long (135/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:410:0: C0301: Line too long (155/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:416:0: C0301: Line too long (129/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:417:0: C0301: Line too long (131/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:422:0: C0301: Line too long (146/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:424:0: C0301: Line too long (150/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:427:0: C0301: Line too long (138/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:431:0: C0301: Line too long (132/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:442:0: C0301: Line too long (127/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:443:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:444:0: C0301: Line too long (131/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:447:0: C0301: Line too long (148/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:451:0: C0301: Line too long (111/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:452:0: C0301: Line too long (112/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:462:0: C0301: Line too long (129/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:469:0: C0301: Line too long (109/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:470:0: C0301: Line too long (115/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:486:0: C0301: Line too long (111/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:517:0: C0301: Line too long (104/100) (line-too-long)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:1:0: C0103: Module name "SDCDataExchange" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:8:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange.SDCDataExchangeEnums' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:10:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFileHelpers' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:11:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_schema.SDCDataSchema' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:12:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange.SDCDataExchangeEndpointFactory' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:13:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.Dataframe' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:14:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.SDCDataframeEnums' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:15:0: E0401: Unable to import 'sdc_etl_libs.sdc_exchange_endpoints.database_endpoints.SDCSnowflakeEndpoint' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:16:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_exchange_loggers.SDCSnowflakeLogger' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:17:0: E0401: Unable to import 'sdc_etl_libs.sdc_file_helpers.SDCFileFactory' (import-error)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:20:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:107:36: W0613: Unused argument 'data_schema_' (unused-argument)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:153:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:163:4: R0914: Too many local variables (30/15) (too-many-locals)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:179:19: W0631: Using possibly undefined loop variable 'item_to_process' (undefined-loop-variable)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:197:19: W0631: Using possibly undefined loop variable 'item_to_process' (undefined-loop-variable)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:210:58: W0631: Using possibly undefined loop variable 'item_to_process' (undefined-loop-variable)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:211:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:213:19: W0631: Using possibly undefined loop variable 'item_to_process' (undefined-loop-variable)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:227:19: W0631: Using possibly undefined loop variable 'item_to_process' (undefined-loop-variable)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:240:61: W0631: Using possibly undefined loop variable 'item_to_process' (undefined-loop-variable)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:241:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:244:19: W0631: Using possibly undefined loop variable 'item_to_process' (undefined-loop-variable)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:257:8: R1705: Unnecessary "elif" after "return" (no-else-return)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:269:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:271:20: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:304:27: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:304:20: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:257:8: R1702: Too many nested blocks (7/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:324:40: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:329:44: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:332:44: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:337:48: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:342:48: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:342:61: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:257:8: R1702: Too many nested blocks (10/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:461:35: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:368:48: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:374:48: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:385:48: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:394:55: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:394:48: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:396:52: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:257:8: R1702: Too many nested blocks (11/5) (too-many-nested-blocks)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:410:48: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:461:28: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:463:32: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:495:23: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:495:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:499:20: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:521:23: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:521:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:524:20: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:532:15: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:532:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:537:15: W0703: Catching too general exception Exception (broad-except)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:536:12: E1101: Instance of 'SDCDataExchange' has no 'sink' member; maybe 'sinks'? (no-member)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:537:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:163:4: R0912: Too many branches (56/12) (too-many-branches)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:163:4: R0915: Too many statements (199/50) (too-many-statements)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:8:0: W0611: Unused DataExchangeTypes imported from sdc_etl_libs.sdc_data_exchange.SDCDataExchangeEnums (unused-import)
+libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:15:0: W0611: Unused DataframeFailedLoading imported from sdc_etl_libs.sdc_exchange_endpoints.database_endpoints.SDCSnowflakeEndpoint (unused-import)
+************* Module sdc_snowflake_sample_search_validator_test
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:51:2: W0511: TODO: Some basic types are not recognized. (fixme)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:463:2: W0511: TODO: Boolean type is unrecognized by Dataframe.load_data method (fixme)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:464:2: W0511: TODO: Float type is unrecognized by Dataframe.load_data method (fixme)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:465:2: W0511: TODO: Double type is unrecognized by Dataframe.load_data method (fixme)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:11:0: C0301: Line too long (105/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:28:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:74:0: C0301: Line too long (101/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:521:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:574:0: C0301: Line too long (103/100) (line-too-long)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:6:0: E0401: Unable to import 'pandas' (import-error)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:9:0: E0401: Unable to import 'sdc_etl_libs.sdc_dataframe.Dataframe' (import-error)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:9:0: C0413: Import "from sdc_etl_libs.sdc_dataframe.Dataframe import SDCDFTypes, SDCDFNonQuotableTypes, Dataframe" should be placed at the top of the module (wrong-import-position)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:10:0: E0401: Unable to import 'sdc_etl_libs.database_helpers.SnowflakeDatabase' (import-error)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:10:0: C0413: Import "from sdc_etl_libs.database_helpers.SnowflakeDatabase import SnowflakeDatabase" should be placed at the top of the module (wrong-import-position)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:11:0: E0401: Unable to import 'sdc_etl_libs.sdc_data_validator.SDCSnowflakeDataValidator.SDCSnowflakeSampleSearchValidator' (import-error)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:11:0: C0413: Import "from sdc_etl_libs.sdc_data_validator.SDCSnowflakeDataValidator.SDCSnowflakeSampleSearchValidator import SDCSnowflakeSampleSearchValidator" should be placed at the top of the module (wrong-import-position)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:35:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:49:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:35:8: W0612: Unused variable 'x' (unused-variable)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:58:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:72:0: W0613: Unused argument 'kwargs' (unused-argument)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:58:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:84:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:85:0: W0613: Unused argument 'kwargs' (unused-argument)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:132:11: C0122: Comparison should be msg == 'All cases match. (Sample Size 1)' (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:168:11: C0122: Comparison should be msg == 'All cases match. (Sample Size 2)' (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:205:11: C0122: Comparison should be msg == 'All cases match. (Sample Size 1)' (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:209:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:210:0: W0613: Unused argument 'kwargs' (unused-argument)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:260:11: C0122: Comparison should be msg == '2 cases were not found (Sample Size 4)' (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:295:11: C0122: Comparison should be msg == '1 cases were not found (Sample Size 2)' (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:299:0: C0115: Missing class docstring (missing-class-docstring)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:300:0: W0613: Unused argument 'kwargs' (unused-argument)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:350:11: C0122: Comparison should be msg == '1 cases were not found (Sample Size 4)' (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:385:11: C0122: Comparison should be msg == '2 cases were not found (Sample Size 4)' (misplaced-comparison-constant)
+libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:420:11: C0122: Comparison should be msg == '3 cases were not found (Sample Size 5)' (misplaced-comparison-constant)
+
+-----------------------------------
+Your code has been rated at 4.64/10
+
+bandit...................................................................Failed
+- hook id: bandit
+- exit code: 1
+
+[main]  INFO    profile include tests: None
+[main]  INFO    profile exclude tests: None
+[main]  INFO    cli include tests: None
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.6.10
+Run started:2020-05-14 04:03:32.878362
+
+Test results:
+>> Issue: [B608:hardcoded_sql_expressions] Possible SQL injection vector through string-based query construction.
+   Severity: Medium   Confidence: Low
+   Location: libs/sdc_etl_libs/sdc_exchange_endpoints/database_endpoints/SDCSnowflakeEndpoint.py:274
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b608_hardcoded_sql_expressions.html
+273                            WHERE "{LoggerEnums.RawTableColumns.ETL_DATA_ITEM_COLUMN.value}" = '{data_item_}'
+274                           """
+275     
+276             self.execute_query(select_query, return_results_=True)
+277     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:30
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+29          # All fields (including added columns)
+30          assert len(test_schema_1_no_issues["fields"]) == 17
+31      
+32          # Verify type returned and fields that should be returned
+33          schema_validation = SDCDataSchema()
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:35
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+34          result = schema_validation.get_field_names_for_file(test_schema_1_no_issues)
+35          assert type(result) == list
+36          assert len(result) == 15
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:36
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+35          assert type(result) == list
+36          assert len(result) == 15
+37      
+38          # Verify order of list
+39          assert result[0] == "ID1"
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:39
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+38          # Verify order of list
+39          assert result[0] == "ID1"
+40          assert result[5] == "ID6"
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:40
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+39          assert result[0] == "ID1"
+40          assert result[5] == "ID6"
+41      
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:48
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+47          # Result should be dict
+48          assert type(result) == dict
+49          # There should at least be 1 key
+50          assert len(result) >= 1
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:50
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+49          # There should at least be 1 key
+50          assert len(result) >= 1
+51      
+52          # Assert expected values
+53          assert "credentials" in result
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:53
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+52          # Assert expected values
+53          assert "credentials" in result
+54          assert result["credentials"] == None
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:54
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+53          assert "credentials" in result
+54          assert result["credentials"] == None
+55          assert "logger" in result
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:55
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+54          assert result["credentials"] == None
+55          assert "logger" in result
+56          assert result["logger"] == None
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:56
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+55          assert "logger" in result
+56          assert result["logger"] == None
+57          assert "file_info" in result
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:57
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+56          assert result["logger"] == None
+57          assert "file_info" in result
+58          assert result["file_info"]["type"] == "csv"
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:58
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+57          assert "file_info" in result
+58          assert result["file_info"]["type"] == "csv"
+59          assert result["give_full_path"] == False
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:59
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+58          assert result["file_info"]["type"] == "csv"
+59          assert result["give_full_path"] == False
+60      
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:67
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+66          # Result should be dict
+67          assert type(result) == dict
+68          # There should at least be 1 key
+69          assert len(result) >= 1
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:69
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+68          # There should at least be 1 key
+69          assert len(result) >= 1
+70      
+71          # Assert expected values
+72          assert 'validator' in result
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:72
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+71          # Assert expected values
+72          assert 'validator' in result
+73          assert isinstance(result['validator'], (list, dict,))
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:73
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+72          assert 'validator' in result
+73          assert isinstance(result['validator'], (list, dict,))
+74      
+75          result_validator_list = [result["validator"]] if isinstance(result['validator'], dict,) else result['validator']
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:76
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+75          result_validator_list = [result["validator"]] if isinstance(result['validator'], dict,) else result['validator']
+76          assert 1 == len(result['validator'])
+77      
+78          result_validator = result_validator_list[0]
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:79
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+78          result_validator = result_validator_list[0]
+79          assert 10 == result_validator["max_sample_size"]  # Value from json
+80          assert 5 == result_validator["validation_page_size"]  # Value from json
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:80
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+79          assert 10 == result_validator["max_sample_size"]  # Value from json
+80          assert 5 == result_validator["validation_page_size"]  # Value from json
+81          assert 0.2 == result_validator["sample_frac_size"]  # Default value
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:81
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+80          assert 5 == result_validator["validation_page_size"]  # Value from json
+81          assert 0.2 == result_validator["sample_frac_size"]  # Default value
+82      
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:92
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+91              scheam_validation.validate_endpoint_data(test_schema_1_no_issues, "NOT_A_TAG")
+92          assert "No records round for tag:" in str(excep_info.value)
+93      
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:113
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+112             scheam_validation.validate_endpoint_data(test_schema_5_multiple_tags, "SDC_sink_0")
+113         assert "Failed parsing schema data. 2 records found for tag: SDC_sink_0" in str(excep_info.value)
+114     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:127
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+126             scheam_validation.validate_endpoint_data(test_schema_2_wrong_data_type, "main_source")
+127         assert "Schema failed validation ERROR: Schema validation for FILE_INFO failed due to" in str(excep_info.value)
+128     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_schema_tests/sdc_data_schema_test.py:140
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+139     
+140         assert result["prefix"] is ''
+
+--------------------------------------------------
+
+Code scanned:
+        Total lines of code: 622
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0.0
+                Low: 26.0
+                Medium: 1.0
+                High: 0.0
+        Total issues (by confidence):
+                Undefined: 0.0
+                Low: 1.0
+                Medium: 0.0
+                High: 26.0
+Files skipped (0):
+[main]  INFO    profile include tests: None
+[main]  INFO    profile exclude tests: None
+[main]  INFO    cli include tests: None
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.6.10
+Run started:2020-05-14 04:03:33.240138
+
+Test results:
+        No issues identified.
+
+Code scanned:
+        Total lines of code: 1387
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 0.0
+        Total issues (by confidence):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 0.0
+Files skipped (0):
+[main]  INFO    profile include tests: None
+[main]  INFO    profile exclude tests: None
+[main]  INFO    cli include tests: None
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.6.10
+Run started:2020-05-14 04:03:33.068410
+
+Test results:
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:532
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+531                 self.source.close_connection()
+532             except Exception as e:
+533                 pass
+534     
+
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/sdc_data_exchange/SDCDataExchange.py:537
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+536                 self.sink.close_connecton()
+537             except Exception as e:
+538                 pass
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:132
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+131         msg = validator.validate_dataframe(sdc_df)
+132         assert 'All cases match. (Sample Size 1)' == msg
+133     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:168
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+167     
+168         assert 'All cases match. (Sample Size 2)' == msg
+169     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:205
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+204     
+205         assert 'All cases match. (Sample Size 1)' == msg
+206     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:260
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+259     
+260         assert '2 cases were not found (Sample Size 4)' == msg
+261     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:295
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+294     
+295         assert '1 cases were not found (Sample Size 2)' == msg
+296     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:350
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+349     
+350         assert '1 cases were not found (Sample Size 4)' == msg
+351     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:385
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+384     
+385         assert '2 cases were not found (Sample Size 4)' == msg
+386     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:420
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+419     
+420         assert '3 cases were not found (Sample Size 5)' == msg
+421     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:474
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+473     
+474         assert expected == set(conditions)
+475     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:526
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+525     
+526         assert expected == set(conditions)
+527     
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: libs/sdc_etl_libs/test/sdc_data_validator/sdc_snowflake_sample_search_validator_test.py:579
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+578     
+579         assert expected == set(conditions)
+
+--------------------------------------------------
+
+Code scanned:
+        Total lines of code: 850
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0.0
+                Low: 13.0
+                Medium: 0.0
+                High: 0.0
+        Total issues (by confidence):
+                Undefined: 0.0
+                Low: 0.0
+                Medium: 0.0
+                High: 13.0
+Files skipped (0):
+
+Detect secrets...........................................................Passed
+Terraform fmt........................................(no files to check)Skipped
+Terraform validate with tflint.......................(no files to check)Skipped
